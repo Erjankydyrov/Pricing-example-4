@@ -137,6 +137,7 @@ main section article .conteiner ul{
     margin-bottom: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    padding-left: 0;
 }
 main section article .conteiner ul li{
     font-family: 'Roboto', sans-serif;
@@ -149,7 +150,6 @@ main section article .conteiner .btn{
     color: rgb(13, 110, 253);
     border-radius: 5px;
     font-size: 20px;
-    max-width: 280PX;
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -161,7 +161,6 @@ main section article .conteiner .btn2{
     border-radius: 5px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    max-width: 280PX;
     width: 100%;
 }
 
@@ -218,6 +217,9 @@ img{
 }
 .bas{
     flex-basis: 25%;
+}
+.text-muted{
+    text-decoration: none;
 }
 @media (max-width: 860px){
     .hnav{
